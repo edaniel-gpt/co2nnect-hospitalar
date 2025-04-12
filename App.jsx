@@ -4,7 +4,6 @@
 import React, { useState } from "react";
 import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer } from "recharts";
 import { motion } from "framer-motion";
-import { Progress } from "@/components/ui/progress";
 
 const data = [
   { month: "Jan", carbon: 450 },
